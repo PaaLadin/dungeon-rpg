@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE DUNGEON — 1975 RPG</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app">
+  <main id="stage">
+    <canvas id="view" width="720" height="540"></canvas>
+  </main>
+</div>
+
+<div id="title-panel" class="panel hidden">
+  <h1>THE DUNGEON</h1>
+  <p class="lore">
+    Пять уровней тьмы. Скелеты, гоблины и дракон.<br>
+    Набери 20 000 опыта или найди АМУЛЕТ — и спаси Music Star.
+  </p>
+  <button id="title-start" class="primary">▶ В ПОДЗЕМЕЛЬЕ</button>
+  <div class="credits">оммаж pedit5 (1975, PLATO) · канал D</div>
+</div>
+
+<div id="end-panel" class="panel hidden">
+  <h1 id="end-title">—</h1>
+  <p id="end-text">—</p>
+  <button id="end-new" class="primary">↻ НОВАЯ ИГРА (R)</button>
+</div>
+
+<script src="js/sound_packs.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/ui_sound.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/styles.js"></script>
+<script src="js/tracks.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
